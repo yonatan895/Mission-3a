@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Mission3a"
         tools:targetApi="31">
         <activity
+            android:name=".RedScreen"
+            android:exported="false" />
+        <activity
             android:name=".GreenScreen"
             android:exported="false" />
         <activity
